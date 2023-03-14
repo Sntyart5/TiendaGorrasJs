@@ -1,3 +1,4 @@
+
 export function pintarProductos(productos){
     
     productos.forEach(function(producto){
@@ -18,6 +19,11 @@ export function pintarProductos(productos){
     nombre.classList.add("text-center")
     nombre.textContent=producto.nombre
 
+    //Crear una descripción
+    let descripcion=document.createElement('h2')
+    descripcion.classList.add("text-center","d-none")
+    descripcion.textContent=producto.descripcion
+
     //crear un Precio 
     let precio=document.createElement('h5')
     precio.classList.add('text-center','text-success',"fw-bold")
@@ -35,10 +41,10 @@ export function pintarProductos(productos){
 
 
 
-
     //padres e hijos 
     tarjeta.appendChild(imagen)
     tarjeta.appendChild(nombre)
+    tarjeta.appendChild(descripcion)
     tarjeta.appendChild(precio)
     columna.appendChild(tarjeta)
     fila.appendChild(columna)

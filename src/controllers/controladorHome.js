@@ -23,14 +23,15 @@ fila.addEventListener("click",function(evento){
     //los objetos tienen atributos
     
     //objetos = {}
-
+    
     let datosProductoSeleccionar = {}
     let tarjeta=evento.target.parentElement
-
+    
     datosProductoSeleccionar.foto=tarjeta.querySelector("img").src
     datosProductoSeleccionar.nombre=tarjeta.querySelector("h3").textContent
     datosProductoSeleccionar.precio=tarjeta.querySelector("h5").textContent
-
+    datosProductoSeleccionar.descripcion=tarjeta.querySelector("h2").textContent
+    
     //usaremos la memoria dle pc para guardar esta info 
     localStorage.setItem("producto",JSON.stringify(datosProductoSeleccionar))
 
