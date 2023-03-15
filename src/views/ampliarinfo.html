@@ -44,10 +44,15 @@
                     <a class="nav-link disabled">Disabled</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2 " type="search" placeholder="Buscar" aria-label="Search">
-                  <button class="btn btn-outline-secondary " type="submit">Buscar</button>
-                </form>
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a href="" class="nav-link active "><i class="bi bi-cart4 fs-2">
+                    </i>
+                    <span class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger" id="pildora">
+                      0
+                    </span></a>
+                  </li>
+                </ul>
               </div>
             </div>
           </nav>
@@ -85,7 +90,7 @@
                     <h2 class="mt-5 fw-bold" >Usd $</h2>
 
 
-                    <button class="btn btn-warning mb-3" type="button"> <i class="bi bi-cart4"></i> Añadir al Carrito</button>
+                    <button class="btn btn-warning mb-3" id="btnagregarcarrito" type="button">  <i class="bi bi-cart4"></i> Añadir al Carrito</button>
                     <button class="btn btn-warning mb-3" type="button" id="dolares">Precio en Dolares</button>
                 </div>
             </div>
