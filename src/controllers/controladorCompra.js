@@ -44,35 +44,3 @@ botonagregarProducto.addEventListener("click",function(){
 })
 
 
-
-
-// Convertidor
-
-import{productos}from '../helpers/BaseDatos.js'
-let dolares=document.getElementById("dolares")
-//pintarProductos(productos)
-
-
-console.log(precio);
-dolares.addEventListener("click",function(dolares){
-    
-    let precio = JSON.stringify(productos.precio);
-    console.log(precio);
-    //localStorage.setItem("producto",JSON.stringify(datosProductoSeleccionar))
-    
-    let datosProductoSeleccionar = {}
-    //let tarjeta=evento.target.parentElement
-    
-    let cantidad=(document.getElementById("cantidad").value)
-    //let precio=(document.getElementById("precio").)
-    
-    console.log("Se hizo clic en el botón");
-    
-    console.log(cantidad);
-    
-    // console.log(precio);
-    
-    let resultado = cantidad * precio;
-    console.log(resultado);
-});
-

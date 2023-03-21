@@ -77,4 +77,3 @@ export let productos=Array(
         popularidad:4.5,
     }
     )
-    console.log(productos.precio,'hi'); // Imprime "Juan"
