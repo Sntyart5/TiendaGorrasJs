@@ -43,4 +43,16 @@ botonagregarProducto.addEventListener("click",function(){
     localStorage.setItem("carrito",JSON.stringify(carrito))
 })
 
+//Limpiar carrito de compras 
+
+let btnlimpiarcarrito=document.getElementById("btnLimpiarcarrito")
+
+
+
+btnlimpiarcarrito.addEventListener("click", function(){
+    carrito=[]
+    pildora.textContent=carrito.length
+    localStorage.setItem("carrito",JSON.stringify(carrito))
+})
+
 
