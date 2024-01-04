@@ -42,6 +42,6 @@ currently in development`github_username`, `repo_name`, `twitter_handle`, `linke
 
 Sntyart5 - [@SantiagoVargas]([https://www.linkedin.com/in/santiago-vargas-2a1375164/](https://www.linkedin.com/in/santiago-vargas-2a1375164/)) - santyvara05@Gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Sntyart5/TiendaGorrasJs](https://github.com/Sntyart5/TiendaGorrasJs)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
